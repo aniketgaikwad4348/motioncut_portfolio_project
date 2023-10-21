@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6f3243aa84.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="img/video.mp4" type="video/mp4">
+            </video>
+            <nav>
+                <section class="container">
+                   <h2><span>A</span>G</a</h2>
+
+                </section>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    
+                </ul>
+                
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm  <span>Aniket</span><br>Gaikwad From India</h1>
+            </div>
+        </div>
+    </div>
+<!-----------------about---------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/IMG_20220517_212824_531.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                     <p>I am a tech enthusiast,<br>My experience has taught me consistency, discipline, and adaptation which are some crucial characteristics that will always help one to succeed in the long run. I’m someone who has always been curious about learning more and keeping myself up to date.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Developement</span><br>Developement of website</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>App Developement</span><br>Building Android/Ios App</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Oct 2023</span><br>Pursuing Internship At Motioncut</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Pursuing BE </span><br>Computer Science & Design Engineering</li>
+                            <li><span>2020-21</span><br>NACS College,A.nagar</li>
+                            <li><span>2018-19</span><br>SSV,Beed</li>
+                        </ul>
+                    </div>
+                    </div>
+              
+               
+            </div>
+        </div>
+    </div>
+    <!--------------services----------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>provides you with a customized website design that's perfect for your business or personal site,to create a design that matches your brand, while giving your customers a seamless user experience that will delight them.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX</h2>
+                    <p>provides you with a customized website design that's perfect for your business or personal site,to create a design that matches your brand, while giving your customers a seamless user experience that will delight them.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>provides you with a customized website design that's perfect for your business or personal site,to create a design that matches your brand, while giving your customers a seamless user experience that will delight them.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>  
+        </div>
+    </div>
+<!------------------portfolio---------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="Work-list">
+                <div class="work">
+                    <img src="img/work-1.jpg">
+                   
+                    <img src="img/work-2.jpg">
+                    <img src="img/work-3.jpg">
+                    <img src="img/work-4.jpg">
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>  
+        </div>
+    </div>
+<!--------------------contact----------------------->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>someone1@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+9170********</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href=""class="btn btn2">Downlod CV</a>
+                </div>
+             
+                
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div>
+    <div class="copyright">
+        <p>Copyright © AG. made with <i class="fa-solid fa-heart"></i>by Ag Official</p>
+    </div>
+       
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+          
+        }
+    </script>
+</body>
+</html>
